@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIKOL</title>
+    <style>
+        a{
+            font-size: 120px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="hello()">Hello</h1>
+    <br>
+    <input type="text" required id="name" placeholder="Name">
+    <br><br>
+    <input type="text" id="age" required placeholder="Age">
+    <br> <br>
+    <input type="email" placeholder="@email.com" id="email" required>
+    <br><br>
+    <button onclick="gwapings()">
+        Click me
+    </button>
+  <script>
+    /* practice */
+
+const inputname = document.getElementById('name')
+let inputage = document.getElementById("age")
+const inputgmail = document.getElementById("email")
+function gwapings(name) {
+   alert(`Hello, ${inputname.value}, Pogi mo! your are ${inputage.value}
+You are now offcially, a programmer.
+Your email is ${inputgmail.value}.`
+)
+}
+
+
+
+  </script>
+</body>
+</html>
